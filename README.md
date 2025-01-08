@@ -6,6 +6,7 @@
 
 ### To Update
 
+- show next departure ✅
 - timetable for weekend
 - timetable for other routes(currently only support pulau sebang - batu caves)
 - more info on limited stop train(currenly only showing "0" which means no stop at chosen destination)

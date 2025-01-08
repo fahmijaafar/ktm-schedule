@@ -1550,10 +1550,7 @@ const stations = {
 }
 
 const all_stations = Object.values(stations).map(station => station.fullName)
-
-const options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
-const current_time = new Date().toLocaleTimeString('ms-MY', options);
-const current_date = new Date().toLocaleDateString('ms-MY');
+const current_datetime = new Date().toLocaleString('ms-MY', {hour12: false})
 
 const get_station_obj = (station) =>{
     for (const key in stations) {
@@ -1565,6 +1562,10 @@ const get_station_obj = (station) =>{
     return station_obj
 }
 
+const timeToMinutes = (time) => {
+    const [hours, minutes] = time.split(":").map(Number);
+    return hours * 60 + minutes;
+};
 
 const app = Vue.createApp({
     components: {
@@ -1572,8 +1573,7 @@ const app = Vue.createApp({
       },
     data(){
         return{
-            current_time: current_time,
-            current_date: current_date,
+            current_datetime: current_datetime,
             timetable: false,
             all_stations: all_stations,
             selected_departing: null,
@@ -1608,11 +1608,22 @@ const app = Vue.createApp({
                 this.selected_route = route
                 var timetable = {}
                 var no = 1
+                var dt = 0
+                //Get nearest departure time
+                const current_time = new Date().toLocaleTimeString('ms-MY', {hour12: false, hour: '2-digit',
+                minute: '2-digit'})
+                const currentTimeInMinutes = timeToMinutes(current_time)
+
                 for(let i of schedule[route]){
                     let l1 = []
                     if(i[departing_station_obj.shortName] != "0"){
                         l1.push(i[departing_station_obj.shortName])
                         l1.push(i[arriving_station_obj.shortName])
+                        var departureTimeInMinutes = timeToMinutes(i[departing_station_obj.shortName])
+                        if(departureTimeInMinutes>currentTimeInMinutes){
+                            l1.push(dt)
+                            dt++
+                        }
                         timetable[no] = l1
                     }
                     no++
@@ -1624,4 +1635,3 @@ const app = Vue.createApp({
 })
 
 app.mount('#app')
-
