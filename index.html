@@ -25,7 +25,7 @@
         <h1 class="mt-2">KTM Train Schedule</h1>
         <div id="app">
             <h2 v-if="selected_departing">{{selected_departing}} to {{selected_arriving}}</h2>
-            <p>{{current_date}} | {{current_time}}</p>
+            <p>{{current_datetime}}</p>
             <div class="row">
                 <div class="col">
                     <small>Departing Station:</small>
@@ -55,8 +55,10 @@
                     </thead>
                     <tbody>
                         <tr v-for="i in timetable">
-                            <td>{{i[0]}}</td>
-                            <td>{{i[1]}}</td>
+                            <td v-if="i[2] == 0" style="background-color: aquamarine !important;">{{i[0]}}</td>
+                            <td v-else>{{i[0]}}</td>
+                            <td v-if="i[2] == 0" style="background-color: aquamarine !important;">{{i[1]}}</td>
+                            <td v-else>{{i[1]}}</td>
                         </tr>
                     </tbody>
                 </table>
