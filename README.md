@@ -12,4 +12,4 @@
 - more info on limited stop train(currenly only showing "0" which means no stop at chosen destination)
 - ui/ux design
 
-Built in 20 min with Love(blackbox.ai) | FJ
+Built by ❤️(blackbox.ai) | FJ
