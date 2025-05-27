@@ -17,9 +17,39 @@ const schedule = {
             "bdrTasikSelatan":"5:43",
             "serdang":"5:51",
             "kajang":"6:08",
-            "kajang2":"6:11",
-            "ukm":"6:14",
-            "bangi":"6:22",
+            "kajang2":"0",
+            "ukm":"0",
+            "bangi":"0",
+            "batangBenar":"0",
+            "nilai":"0",
+            "labu":"0",
+            "tiroi":"0",
+            "seremban":"0",
+            "senawang":"0",
+            "sgGadut":"0",
+            "rembau":"0",
+            "pulauSebang":"0"
+        },
+        {
+            "id":2,
+            "batuCaves":"0",
+            "tmnWahyu":"0",
+            "kgBatu":"0",
+            "batuKentomen":"0",
+            "sentul":"0",
+            "putra":"0",
+            "bankNegara":"0",
+            "kualaLumpur":"0",
+            "klSentral":"0",
+            "midValley":"0",
+            "seputeh":"0",
+            "salakSelatan":"0",
+            "bdrTasikSelatan":"0",
+            "serdang":"0",
+            "kajang":"0",
+            "kajang2":"0",
+            "ukm":"0",
+            "bangi":"0",
             "batangBenar":"6:35",
             "nilai":"6:41",
             "labu":"6:48",
@@ -31,7 +61,7 @@ const schedule = {
             "pulauSebang":"7:43"
         },
         {
-            "id":2,
+            "id":3,
             "batuCaves":"5:50",
             "tmnWahyu":"5:54",
             "kgBatu":"5:57",
@@ -61,7 +91,7 @@ const schedule = {
             "pulauSebang":"9:13"
         },
         {
-            "id":3,
+            "id":4,
             "batuCaves":"7:20",
             "tmnWahyu":"7:24",
             "kgBatu":"7:27",
@@ -91,7 +121,7 @@ const schedule = {
             "pulauSebang":"10:13"
         },
         {
-            "id":4,
+            "id":5,
             "batuCaves":"8:20",
             "tmnWahyu":"8:24",
             "kgBatu":"8:27",
@@ -121,7 +151,7 @@ const schedule = {
             "pulauSebang":"11:53"
         },
         {
-            "id":5,
+            "id":6,
             "batuCaves":"10:00",
             "tmnWahyu":"10:04",
             "kgBatu":"10:07",
@@ -151,7 +181,7 @@ const schedule = {
             "pulauSebang":"12:53"
         },
         {
-            "id":6,
+            "id":7,
             "batuCaves":"11:00",
             "tmnWahyu":"11:04",
             "kgBatu":"11:07",
@@ -181,7 +211,7 @@ const schedule = {
             "pulauSebang":"13:53"
         },
         {
-            "id":7,
+            "id":8,
             "batuCaves":"12:25",
             "tmnWahyu":"12:29",
             "kgBatu":"12:32",
@@ -211,7 +241,7 @@ const schedule = {
             "pulauSebang":"15:18"
         },
         {
-            "id":8,
+            "id":9,
             "batuCaves":"13:25",
             "tmnWahyu":"13:29",
             "kgBatu":"13:32",
@@ -241,7 +271,7 @@ const schedule = {
             "pulauSebang":"16:18"
         },
         {
-            "id":9,
+            "id":10,
             "batuCaves":"14:25",
             "tmnWahyu":"14:29",
             "kgBatu":"14:32",
@@ -271,7 +301,7 @@ const schedule = {
             "pulauSebang":"0"
         },
         {
-            "id":10,
+            "id":11,
             "batuCaves":"15:25",
             "tmnWahyu":"15:29",
             "kgBatu":"15:32",
@@ -301,7 +331,7 @@ const schedule = {
             "pulauSebang":"18:18"
         },
         {
-            "id":11,
+            "id":12,
             "batuCaves":"16:25",
             "tmnWahyu":"16:29",
             "kgBatu":"16:32",
@@ -331,7 +361,7 @@ const schedule = {
             "pulauSebang":"19:18"
         },
         {
-            "id":12,
+            "id":13,
             "batuCaves":"17:25",
             "tmnWahyu":"7:29",
             "kgBatu":"17:32",
@@ -361,7 +391,7 @@ const schedule = {
             "pulauSebang":"20:18"
         },
         {
-            "id":13,
+            "id":14,
             "batuCaves":"17:40",
             "tmnWahyu":"17:44",
             "kgBatu":"17:47",
@@ -391,7 +421,7 @@ const schedule = {
             "pulauSebang":"20:33"
         },
         {
-            "id":14,
+            "id":15,
             "batuCaves":"17:55",
             "tmnWahyu":"17:59",
             "kgBatu":"18:02",
@@ -421,7 +451,7 @@ const schedule = {
             "pulauSebang":"20:48"
         },
         {
-            "id":15,
+            "id":16,
             "batuCaves":"18:55",
             "tmnWahyu":"18:59",
             "kgBatu":"19:02",
@@ -451,7 +481,7 @@ const schedule = {
             "pulauSebang":"21:48"
         },
         {
-            "id":16,
+            "id":17,
             "batuCaves":"20:00",
             "tmnWahyu":"20:04",
             "kgBatu":"20:07",
@@ -481,7 +511,7 @@ const schedule = {
             "pulauSebang":"22:53"
         },
         {
-            "id":17,
+            "id":18,
             "batuCaves":"21:00",
             "tmnWahyu":"21:04",
             "kgBatu":"21:07",
@@ -511,7 +541,7 @@ const schedule = {
             "pulauSebang":"0"
         },
         {
-            "id":18,
+            "id":19,
             "batuCaves":"22:10",
             "tmnWahyu":"22:14",
             "kgBatu":"22:17",
@@ -1145,6 +1175,36 @@ const schedule = {
         },
         {
             "id":2,
+            "pulauSebang":"0",
+            "rembau":"0",
+            "sgGadut":"5:30",
+            "senawang":"5:35",
+            "seremban":"5:41",
+            "tiroi":"5:49",
+            "labu":"5:55",
+            "nilai":"6:05",
+            "batangBenar":"6:11",
+            "bangi":"6:24",
+            "ukm":"6:30",
+            "kajang2":"6:33",
+            "kajang":"6:36",
+            "serdang":"0",
+            "bdrTasikSelatan":"7:00",
+            "salakSelatan":"7:06",
+            "seputeh":"7:11",
+            "midValley":"7:14",
+            "klSentral":"7:24",
+            "kualaLumpur":"7:30",
+            "bankNegara":"7:34",
+            "putra":"7:37",
+            "sentul":"7:43",
+            "batuKentomen":"7:47",
+            "kgBatu":"7:49",
+            "tmnWahyu":"7:51",
+            "batuCaves":"7:55"
+        },
+        {
+            "id":3,
             "pulauSebang":"5:30",
             "rembau":"5:47",
             "sgGadut":"6:00",
@@ -1174,7 +1234,7 @@ const schedule = {
             "batuCaves":"8:20"
         },
         {
-            "id":3,
+            "id":4,
             "pulauSebang":"5:45",
             "rembau":"6:02",
             "sgGadut":"6:15",
@@ -1204,7 +1264,7 @@ const schedule = {
             "batuCaves":"8:30"
         },
         {
-            "id":4,
+            "id":5,
             "pulauSebang":"6:00",
             "rembau":"6:17",
             "sgGadut":"6:30",
@@ -1234,7 +1294,37 @@ const schedule = {
             "batuCaves":"8:45"
         },
         {
-            "id":5,
+            "id":6,
+            "pulauSebang":"0",
+            "rembau":"0",
+            "sgGadut":"0",
+            "senawang":"0",
+            "seremban":"0",
+            "tiroi":"0",
+            "labu":"0",
+            "nilai":"0",
+            "batangBenar":"0",
+            "bangi":"0",
+            "ukm":"0",
+            "kajang2":"0",
+            "kajang":"8:06",
+            "serdang":"0",
+            "bdrTasikSelatan":"8:30",
+            "salakSelatan":"8:36",
+            "seputeh":"8:41",
+            "midValley":"8:44",
+            "klSentral":"8:51",
+            "kualaLumpur":"8:55",
+            "bankNegara":"8:59",
+            "putra":"9:02",
+            "sentul":"9:07",
+            "batuKentomen":"0",
+            "kgBatu":"0",
+            "tmnWahyu":"0",
+            "batuCaves":"0"
+        },
+        {
+            "id":7,
             "pulauSebang":"7:00",
             "rembau":"7:17",
             "sgGadut":"7:30",
@@ -1264,7 +1354,7 @@ const schedule = {
             "batuCaves":"9:45"
         },
         {
-            "id":6,
+            "id":8,
             "pulauSebang":"0",
             "rembau":"0",
             "sgGadut":"8:30",
@@ -1294,7 +1384,7 @@ const schedule = {
             "batuCaves":"10:45"
         },
         {
-            "id":7,
+            "id":9,
             "pulauSebang":"8:30",
             "rembau":"8:47",
             "sgGadut":"9:10",
@@ -1324,7 +1414,7 @@ const schedule = {
             "batuCaves":"11:25"
         },
         {
-            "id":8,
+            "id":10,
             "pulauSebang":"9:40",
             "rembau":"9:57",
             "sgGadut":"10:10",
@@ -1354,7 +1444,7 @@ const schedule = {
             "batuCaves":"12:31"
         },
         {
-            "id":9,
+            "id":11,
             "pulauSebang":"10:40",
             "rembau":"10:57",
             "sgGadut":"11:10",
@@ -1384,7 +1474,7 @@ const schedule = {
             "batuCaves":"13:40"
         },
         {
-            "id":10,
+            "id":12,
             "pulauSebang":"12:05",
             "rembau":"12:22",
             "sgGadut":"12:35",
@@ -1414,7 +1504,7 @@ const schedule = {
             "batuCaves":"14:50"
         },
         {
-            "id":11,
+            "id":13,
             "pulauSebang":"13:05",
             "rembau":"13:22",
             "sgGadut":"13:35",
@@ -1444,7 +1534,7 @@ const schedule = {
             "batuCaves":"15:50"
         },
         {
-            "id":12,
+            "id":14,
             "pulauSebang":"14:05",
             "rembau":"14:22",
             "sgGadut":"14:35",
@@ -1474,7 +1564,7 @@ const schedule = {
             "batuCaves":"16:50"
         },
         {
-            "id":13,
+            "id":15,
             "pulauSebang":"0",
             "rembau":"0",
             "sgGadut":"15:35",
@@ -1504,7 +1594,7 @@ const schedule = {
             "batuCaves":"17:52"
         },
         {
-            "id":14,
+            "id":16,
             "pulauSebang":"16:00",
             "rembau":"16:17",
             "sgGadut":"16:30",
@@ -1534,7 +1624,7 @@ const schedule = {
             "batuCaves":"18:57"
         },
         {
-            "id":15,
+            "id":17,
             "pulauSebang":"17:05",
             "rembau":"17:22",
             "sgGadut":"17:35",
@@ -1564,7 +1654,7 @@ const schedule = {
             "batuCaves":"20:20"
         },
         {
-            "id":16,
+            "id":18,
             "pulauSebang":"18:35",
             "rembau":"18:52",
             "sgGadut":"19:05",
@@ -1594,7 +1684,7 @@ const schedule = {
             "batuCaves":"21:20"
         },
         {
-            "id":17,
+            "id":19,
             "pulauSebang":"19:40",
             "rembau":"19:57",
             "sgGadut":"20:10",
@@ -1624,7 +1714,7 @@ const schedule = {
             "batuCaves":"22:30"
         },
         {
-            "id":18,
+            "id":20,
             "pulauSebang":"20:35",
             "rembau":"20:52",
             "sgGadut":"21:05",
