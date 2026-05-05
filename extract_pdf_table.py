@@ -58,7 +58,7 @@ weekday_desc_map = {
 
 weekend_desc_map = {
     1: "batucaves-pulausebang-weekend",
-    2: "pulausebang-batucaves-wekend"
+    2: "pulausebang-batucaves-weekend"
 }
 
 all_tables = []

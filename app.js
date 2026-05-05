@@ -92,9 +92,7 @@ const app = Vue.createApp({
                 const weekdayForward = extracted.find(item => item.table_desc === "batucaves-pulausebang-weekday")?.data || []
                 const weekdayReverse = extracted.find(item => item.table_desc === "pulausebang-batucaves-weekday")?.data || []
                 const weekendForward = extracted.find(item => item.table_desc === "batucaves-pulausebang-weekend")?.data || []
-                const weekendReverse = extracted.find(item => item.table_desc === "pulausebang-batucaves-weekend")?.data
-                    || extracted.find(item => item.table_desc === "pulausebang-batucaves-wekend")?.data
-                    || []
+                const weekendReverse = extracted.find(item => item.table_desc === "pulausebang-batucaves-weekend")?.data || []
 
                 schedule = {
                     "batucaves-pulausebang-weekday": weekdayForward,
