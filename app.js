@@ -35,9 +35,8 @@ let schedule = {
     "pulausebang-batucaves-weekend": []
 }
 const all_stations = Object.values(stations).map(station => station.fullName)
-const today = new Date();
-const current_datetime = today.toLocaleString('ms-MY', {hour12: false})
-const current_day = parseInt(today.getDay())
+const getCurrentDateTime = () => new Date().toLocaleString('ms-MY', {hour12: false})
+const current_day = new Date().getDay()
 
 const get_station_obj = (station) => {
     let station_obj = null
@@ -61,7 +60,7 @@ const app = Vue.createApp({
       },
     data(){
         return{
-            current_datetime: current_datetime,
+            current_datetime: getCurrentDateTime(),
             timetable: false,
             all_stations: all_stations,
             selected_departing: null,
@@ -71,7 +70,15 @@ const app = Vue.createApp({
         }
     },
     async mounted() {
+        this.clockInterval = setInterval(() => {
+            this.current_datetime = getCurrentDateTime()
+        }, 1000)
         await this.loadSchedule()
+    },
+    beforeUnmount() {
+        if (this.clockInterval) {
+            clearInterval(this.clockInterval)
+        }
     },
     methods:{
         swapStations() {
